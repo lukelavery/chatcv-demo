@@ -45363,7 +45363,7 @@ break}else throw A.c("Unable to retrieve run.")
 case 1:return A.Y(q,r)}})
 return A.Z($async$vo,r)}}
 A.ac_.prototype={
-$1(a){return A.WT("http",u.c,"api/threads/"+a+"/runs/"+this.a,null)},
+$1(a){return A.WT("https",u.c,"api/threads/"+a+"/runs/"+this.a,null)},
 $S:327}
 A.aqc.prototype={
 $1(a){return new A.nu(A.WT("https",u.c,"api/threads",null))},
